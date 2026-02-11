@@ -1,0 +1,86 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.floor-selection {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.floor-selection button {
+  margin: 8px;
+  padding: 12px 22px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #4CAF50;
+  color: white;
+  transition: 0.3s;
+}
+
+.floor-selection button:hover {
+  background-color: #45a049;
+}
+
+.room-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.room-list button {
+  margin: 6px;
+  padding: 10px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #2196F3;
+  color: white;
+  transition: 0.3s;
+}
+
+.room-list button:hover {
+  background-color: #0b7dda;
+}
+
+.directions {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  padding: 15px;
+  min-height: 60px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  border: 1px solid #a5d6a7;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .floor-selection button, .room-list button {
+    width: 90%;
+    margin: 6px auto;
+  }
+}
